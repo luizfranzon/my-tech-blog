@@ -43,6 +43,12 @@ interface postProps {
   slug: string;
 }
 
+interface paramsProps {
+  params: {
+    slug: string
+  }
+}
+
 export async function getStaticPaths() {
   const { posts } = await graphcms.request(SLUGLIST);
   return {
@@ -51,7 +57,7 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params }: paramsProps) {
   const slug = params.slug;
   const data = await graphcms.request(query, { slug });
   const post = data.post;
