@@ -11,12 +11,12 @@ export function Header() {
           <nav>
             <ul className="flex gap-4 lg:gap-12">
               <Link href="/newsletter">
-                <li className="font-semibold text-xl hover:scale-110 transition-transform hidden lg:inline">
+                <li className="font-semibold text-xl hidden lg:block hover:scale-110 transition-transform">
                   Newsletter
                 </li>
               </Link>
               <Link href="/contato">
-                <li className="font-semibold text-xl hover:scale-110 transition-transform hidden lg:inline">
+                <li className="font-semibold text-xl hidden lg:block hover:scale-110 transition-transform">
                   Contato
                 </li>
               </Link>

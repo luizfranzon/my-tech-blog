@@ -7,7 +7,7 @@ module.exports = {
         sans: "Inter, sans-serif"
       },
       backgroundImage: {
-        mainBackground: "url(/assets/background.svg)"
+        mainBackground: "url(/assets/backgroundPng.png)"
       },
       colors: {
         beige: {

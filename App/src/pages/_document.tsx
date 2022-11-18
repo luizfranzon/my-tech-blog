@@ -14,8 +14,9 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap"
           rel="stylesheet"
         />
+        <meta name="theme-color" content="#ffffff" />
       </Head>
-      <body className="h-screen bg-beige-500 selection:bg-gray-500 selection:text-black">
+      <body className="h-[110vh] bg-beige-500 selection:bg-gray-500 selection:text-black">
         <Main />
         <NextScript />
       </body>

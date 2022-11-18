@@ -74,8 +74,8 @@ export default function BlogPost({ post }: screenPostProps) {
     <>
       <Header />
       <section className="mb-72 mt-16 flex flex-col w-full max-w-3xl items-center m-auto">
-        <h1 className="font-bold text-4xl">{post.title}</h1>
-        <div className="mt-16" dangerouslySetInnerHTML={{__html: post.content.html}}></div>
+        <h1 className="font-bold text-xl md:text-4xl">{post.title}</h1>
+        <div className="mt-16 text-sm lg:text-xl px-8 flex flex-col items-center font-medium" dangerouslySetInnerHTML={{__html: post.content.html}}></div>
       </section>
     </>
   );
