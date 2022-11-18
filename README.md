@@ -25,7 +25,7 @@
 
 **1- Clone this repository:**
 ```bash
-https://github.com/luizfranzon/twitter-video-downloader && twitter-video-downloader/App
+https://github.com/luizfranzon/my-tech-blog.git && my-tech-blog/App
 ```
 **2- Install dependencies:**
 ```bash
